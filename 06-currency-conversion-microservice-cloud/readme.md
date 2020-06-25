@@ -1,5 +1,5 @@
 # Currency Conversion Micro Service
-Run com.in28minutes.microservices.currencyconversionservice.CurrencyConversionServiceApplication as a Java Application.
+Run com.asivaji2learn.microservices.currencyconversionservice.CurrencyConversionServiceApplication as a Java Application.
 
 ## Resources
 
@@ -32,7 +32,7 @@ totalCalculatedAmount: 750
 ### Running Containers
 
 ```
-docker run --publish 8100:8100 --network currency-network --env CURRENCY_EXCHANGE_URI=http://currency-exchange:8000 in28min/currency-conversion:0.0.1-SNAPSHOT
+docker run --publish 8100:8100 --network currency-network --env CURRENCY_EXCHANGE_URI=http://currency-exchange:8000 anandsivaji/currency-conversion:0.0.1-SNAPSHOT
 ```
 
 #### Test API 

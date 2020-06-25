@@ -1,6 +1,6 @@
 # Todo Web Application using Spring Boot and MySQL as Database
 
-Run com.in28minutes.springboot.web.SpringBootFirstWebApplication as a Java Application.
+Run com.asivaji2learn.springboot.web.SpringBootFirstWebApplication as a Java Application.
 
 Runs on default port of Spring Boot - 8080
 
@@ -15,10 +15,10 @@ We will deploy to Cloud as a WAR
 
 ## Web Application
 
-- http://localhost:8080/login with in28minutes/dummy as credentials
+- http://localhost:8080/login with testuser/dummy as credentials
 - You can add, delete and update your todos
 - Spring Security is used to secure the application
-- `com.in28minutes.springboot.web.security.SecurityConfiguration` contains the in memory security credential configuration.
+- `com.asivaji2learn.springboot.web.security.SecurityConfiguration` contains the in memory security credential configuration.
 
 
 ## KOMPOSE 
@@ -88,7 +88,7 @@ docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=tod
 Using Link
 
 ```
-docker container run -p 8080:8080 --link=mysql -e RDS_HOSTNAME=mysql  in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
+docker container run -p 8080:8080 --link=mysql -e RDS_HOSTNAME=mysql  anandsivaji/todo-web-application-mysql:0.0.1-SNAPSHOT
 ```
 
 
@@ -100,7 +100,7 @@ docker container run -p 8080:8080 --link=mysql -e RDS_HOSTNAME=mysql  in28min/to
 
 
 ```
-Rangas-MacBook-Air:projects in28min$ mysqlsh
+Rangas-MacBook-Air:projects anandsivaji$ mysqlsh
 MySQL Shell 8.0.15
 Copyright (c) 2016, 2019, Oracle and/or its affiliates. All rights reserved.
 Oracle is a registered trademark of Oracle Corporation and/or its affiliates.
@@ -128,7 +128,7 @@ Fetching table and column names from `todos` for auto-completion... Press ^C to 
 +----+--------------+---------+----------------------------+-------------+
 | id | description  | is_done | target_date                | user        |
 +----+--------------+---------+----------------------------+-------------+
-|  1 | Default Desc | 0       | 2019-06-26 18:30:00.000000 | in28minutes |
+|  1 | Default Desc | 0       | 2019-06-26 18:30:00.000000 | asivaji2learn |
 +----+--------------+---------+----------------------------+-------------+
 1 row in set (0.0032 sec)
 

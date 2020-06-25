@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.in28minutes.springboot.web</groupId>
+	<groupId>com.asivaji2learn.springboot.web</groupId>
 	<artifactId>02-todo-web-application-h2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -116,7 +116,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>in28min/${project.name}</repository>
+					<repository>anandsivaji/${project.name}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>

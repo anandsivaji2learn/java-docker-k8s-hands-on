@@ -2,7 +2,7 @@
 
 ### Running the Application
 
-Run com.in28minutes.rest.webservices.restfulwebservices.RestfulWebServicesApplication as a Java Application.
+Run com.asivaji2learn.rest.webservices.restfulwebservices.RestfulWebServicesApplication as a Java Application.
 
 - http://localhost:8080/hello-world
 
@@ -16,8 +16,8 @@ Hello World V1 abcde
 {"message":"Hello World"}
 ```
 
-- http://localhost:8080/hello-world/path-variable/in28minutes
+- http://localhost:8080/hello-world/path-variable/asivaji2learn
 
 ```json
-{"message":"Hello World, in28minutes"}
+{"message":"Hello World, asivaji2learn"}
 ```

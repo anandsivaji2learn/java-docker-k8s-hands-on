@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.in28minutes.microservices</groupId>
+	<groupId>com.asivaji2learn.microservices</groupId>
 	<artifactId>07-currency-exchange-stackdriver</artifactId>
 	<version>2.0.0-RELEASE</version> <!-- CHANGE -->
 	<packaging>jar</packaging>
@@ -137,7 +137,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>in28min/${project.name}</repository>
+					<repository>anandsivaji/${project.name}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
